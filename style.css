@@ -51,4 +51,71 @@ body{
 
 #rightSide {
     width: 70vw;
+    margin-left: 50px;
+    margin-top: 150px;
+    padding-right: 550px;
+    box-sizing: border-box;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topPara,.botPara {
+    font-size: x-large;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.row { 
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.eachInput {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+form, .start{
+    color: rgb(53, 52, 58);
+}
+
+.start {
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+form {
+    font-size: smaller;
+    font-weight: 500;
+}
+label {
+    margin-bottom: 5px;
+}
+input  {
+    border: #E5E7EB;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+input:focus {
+    outline-color: rgb(49, 96, 252);
+    outline-width: 1px;
+}
+button {
+    background-color: #596D48;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
